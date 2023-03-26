@@ -1,0 +1,19 @@
+.cardHome{
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: rgb(218, 186, 218);
+}
+
+.cardHome button{
+    margin-top: 30px;
+    background-color: rgb(185, 90, 90);
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    height: 45px;
+}
+
+.cardHome h3{
+    text-align: center;
+    /* padding-bottom: 100px; */
+}

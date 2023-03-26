@@ -1,0 +1,36 @@
+.product-card{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.productCard{
+    margin: 30px;
+}
+
+.Product-text{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.clothing-card{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.clothing-text{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.button-pilihan{
+    color: azure;
+}
+
+.button-pilihan a{
+    color: azure;
+    text-decoration: none;
+}
