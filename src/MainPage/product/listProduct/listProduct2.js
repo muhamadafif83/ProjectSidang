@@ -1,15 +1,15 @@
 import Card from "react-bootstrap/Card";
-import dataProduct from "./dataProduct";
+import dataProduct2 from "./dataProduct2";
 import "./listProduct.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { FaTiktok, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
-const Productlist = () => {
-  return (
-    <div className="listProduct">
-      <div className="clothing-card">
-        {dataProduct.map((card) => (
+const Productlist2 = () => {
+    return (
+      <div className="listProduct">
+        <div className="clothing-card">
+        {dataProduct2.map((card) => (
           <Card key={card.id} style={{ width: "18rem" }} className="listCard">
             <Card.Img variant="top" src={card.img} />
             <Card.Body>
@@ -33,19 +33,12 @@ const Productlist = () => {
                     <FaTiktok size={20} /> TikTok
                   </Dropdown.Item>
                 </DropdownButton>
-                {/* <ModalComponent 
-                                show={showModal} 
-                                handleClose={handleClose}  
-                                title="Contact us here" 
-                                content="Isi modal di sini" 
-                            /> */}
-              </>
-            </Card.Body>
+                </>
+                </Card.Body>
           </Card>
-        ))}
-      </div>
-    </div>
-  );
-};
+          ))}
+          </div>
+        </div>
+    )}
 
-export default Productlist;
+    export default Productlist2

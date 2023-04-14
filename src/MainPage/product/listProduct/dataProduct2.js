@@ -1,25 +1,25 @@
-const dataProduct = [
+const dataProduct2 = [
     {
       id: "1",
-      img: "./Image/baju motif pisang.jpg",
-      title: "Baju motif pisang",
+      img: "./Image/jaket anak bulu.jpg",
+      title: "Jaket bulu anak",
       size: "size : 1 - 3 thn",
       desc: "Kontak kami di Whatsapp dan Instagram di bawah untuk info lebih lanjut",
     },
     {
         id: "2",
-        img: "./Image/disney.jpg",
-        title: "Celana disney",
+        img: "./Image/jaket jeans anak.jpg",
+        title: "Jaket jeans anak",
         size: "size : 1 - 3 thn",
         desc: "Kontak kami di Whatsapp dan Instagram di bawah untuk info lebih lanjut",
     },
     {
         id: "3",
-        img: "./Image/jaket anak bludru.jpg",
-        title: "Jaket anak bludru",
+        img: "./Image/rompi bulu.jpg",
+        title: "Rompi bulu",
         size: "size : 1 - 3 thn",
         desc: "Kontak kami di Whatsapp dan Instagram di bawah untuk info lebih lanjut",
     },
   ];
   
-  export default dataProduct;
+  export default dataProduct2;

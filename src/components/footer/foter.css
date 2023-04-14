@@ -1,6 +1,6 @@
 footer{
-    height: 150px;
-    background-color: black;
+    /* height: 140px;r */
+    /* background-color: black; */
     margin-top: 100px;
 }
 
@@ -25,4 +25,13 @@ footer{
     flex-direction: column;
     align-items: center;
     padding-top: 15px;
+}
+
+.copyright{
+    background-color: white;
+    padding: 1px;
+}
+
+.copyright h5{
+    font-size: 16px;
 }

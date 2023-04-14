@@ -6,16 +6,12 @@ import Footer from "../../components/footer/footer";
 const Home = () => {
   return (
     <div className="container-home">
-      <div className="home-top">
-        <h6>Kabupaten Bandung - Soreang</h6>
-      </div>
       <>
         <NavBar />
       </>
       <div className="content-home">
         <h4 style={{ textAlign: "center", padding: "10px" }}>New Arrivals!</h4>
-        <img
-          src="./image/baju-home.jpg" alt="#"/>
+        <img src="./image/baju-home.jpg" alt="#" />
         <a href="/Product"><button>See More</button></a>
       </div>
       <>
