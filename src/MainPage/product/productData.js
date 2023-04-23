@@ -8,8 +8,8 @@ const data = [
     },
     {
       id: "2",
-      img: "./Image/jaket bulu anak uniqlo.jpg",
-      title: "Jaket bulu anak uniqlo",
+      img: "./Image/rompi bulu.jpg",
+      title: "Rompi bulu",
       size: "size : 1 - 3 thn",
       desc: "Kontak kami di Whatsapp dan Instagram di bawah untuk info lebih lanjut",
     },

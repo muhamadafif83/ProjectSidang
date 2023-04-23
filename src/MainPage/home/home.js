@@ -23,10 +23,13 @@ const Home = () => {
         <div className="promo">
       <div className="promo-content">
           <div className="promo-img">
-            <img src="./image/baju-home.jpg" alt="" style={{width : '87%'}}/>
+            <img src="./image/baju-home.jpg" alt="" style={{width : '90%'}}/>
           </div>
-          <div className="promo-text">
-            <h5>Jangan lewatkan kesempatan untuk memiliki baju berkualitas dengan harga terbaik!</h5>
+          <div className="promo-text"> 
+          <div className="judul-promo">
+            <h4>Offering</h4><br/>
+            </div>
+            <p>Halo! Sudahkah Anda melihat koleksi baju anak kami yang lucu dan imut? Kami menawarkan desain yang trendi dan warna-warna cerah yang pasti akan membuat anak Anda terlihat menggemaskan. Beli 2 potong baju anak dan dapatkan diskon 15%!</p>
           </div>
       </div>
             {/* <button className="promo-button">test</button> */}

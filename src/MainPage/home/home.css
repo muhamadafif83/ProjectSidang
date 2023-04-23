@@ -34,7 +34,7 @@
 .promo{
     margin-top: 40px;
     margin-left: 10%;
-    background-color: blanchedalmond;
+    background-color: rgb(235, 124, 177);
     width: 80%;
     height: 350px;
     display: flex;
@@ -61,11 +61,13 @@
 
 .promo-text{
     margin-right: 100px;
-    width: 450px;
-    padding: 10px;
+    width: 950px;
+    padding: 20px;
     text-transform: capitalize;
     /* text-decoration: double; */
-    display: flex;
+    font-size: medium;
+    text-align: center;
+    /* display: flex; */
     align-items: center;
-    background-color: rgb(187, 94, 94);
+    background-color: rgb(222, 115, 115);
 }

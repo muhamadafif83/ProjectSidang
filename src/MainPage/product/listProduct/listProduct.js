@@ -11,7 +11,7 @@ const Productlist = () => {
       <div className="clothing-card">
         {dataProduct.map((card) => (
           <Card key={card.id} style={{ width: "18rem" }} className="listCard">
-            <Card.Img variant="top" src={card.img} />
+            <Card.Img variant="top" src={card.img} style={{ width: "100%" }} />
             <Card.Body>
               <Card.Title>{card.title}</Card.Title>
               <hr />
@@ -22,7 +22,8 @@ const Productlist = () => {
                   id="dropdown-item-button"
                   title="Contact us here"
                 >
-                  <Dropdown.ItemText>Our social media</Dropdown.ItemText>
+                  <Dropdown.ItemText>Order here</Dropdown.ItemText>
+                  <Dropdown.Divider />
                   <Dropdown.Item href="https://www.instagram.com/damdam.suit/" target="_blank">
                     <FaInstagram size={20} /> Instagram
                   </Dropdown.Item>

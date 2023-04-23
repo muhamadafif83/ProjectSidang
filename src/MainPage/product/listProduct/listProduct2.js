@@ -22,7 +22,8 @@ const Productlist2 = () => {
                   id="dropdown-item-button"
                   title="Contact us here"
                 >
-                  <Dropdown.ItemText>Our social media</Dropdown.ItemText>
+                  <Dropdown.ItemText>Order here</Dropdown.ItemText>
+                  <Dropdown.Divider />
                   <Dropdown.Item href="https://www.instagram.com/damdam.suit/" target="_blank">
                     <FaInstagram size={20} /> Instagram
                   </Dropdown.Item>
