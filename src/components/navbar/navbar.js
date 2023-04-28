@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
 import './navbar.css'
 
@@ -23,16 +22,7 @@ const NavBar = () => {
           >
             <Nav.Link href="/" style={{marginLeft: '60px'}}>Home </Nav.Link>
             <Nav.Link href="/Product" style={{marginLeft: '40px'}}>Product</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown" style={{marginLeft: '40px'}}>
-              <NavDropdown.Item href="/About" >Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/About" style={{marginLeft: '40px'}}>Contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

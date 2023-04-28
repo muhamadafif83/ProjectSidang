@@ -1,30 +1,30 @@
-import Figure from 'react-bootstrap/Figure'; 
+import Form from 'react-bootstrap/Form';
 import "./style/mainAbout.css"
-import { GrLocation } from 'react-icons/gr'
+import Button from 'react-bootstrap/Button';
 
 const MainAbout = () => {
+  function handleSubmit() {
+    alert('keluhan anda sudah terkirim');
+  }
     return(
-        <div className="container-about text-center d-flex mt-4">
-            <div className="figurImage mx-auto">
-            <Figure>
-            <Figure.Caption className='fs-5 fw-bold'style={{'color': 'black'}}>
-        About our store
-      </Figure.Caption>
-      <Figure.Image rounded
-        width={400}
-        height={180}
-        alt="171x180"
-        src="./image/disney.jpg"
-      />
-    </Figure>
-    </div>
-    <div className="descAbout">
-    <h3>About</h3>
-    <p>Toko kami menyediakan berbagai macam baju anak<br/> dari umur 1 tahun ke atas</p>
-    <div className="iconlokasi">
-    <GrLocation size={35}/>
-    </div>
-    </div>
+        <div className="container-about text-center">
+          <h3>Contact us</h3><br/>
+            <Form className="formContent">
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Control type="text" placeholder="Masukan Nama anda" />
+      </Form.Group>
+      <br/>
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Control type="email" placeholder="Masukan Email anda" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <br/>
+        <Form.Control as="textarea" placeholder="Masukan keluhan anda" />
+      </Form.Group>
+      <Button variant="primary" type="submit"  onClick={handleSubmit}>
+        Submit
+      </Button>
+    </Form>
         </div>
     )
 }

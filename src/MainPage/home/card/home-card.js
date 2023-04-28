@@ -14,10 +14,12 @@ const CardHome = () => {
       <Card className='card-1'>
         <Card.Img variant="top" src="./Image/jaket anak bulu.jpg" />
         <Card.Body>
-          <Card.Title>jaket anak bulu</Card.Title>
+          <Card.Title>jaket anak buluc</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          1 - 3 thn
+          </Card.Text>
+          <Card.Text>
+          jaket ini mempunyai bulu yang sangat lembut cocok dipakai saat dingin
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -29,8 +31,10 @@ const CardHome = () => {
         <Card.Body>
           <Card.Title>jaket jeans anak</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+          1 - 3 thn
+          </Card.Text>
+          <Card.Text>
+          jaket yang sangat cocok untuk menambah penampilan anak anda
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -42,9 +46,10 @@ const CardHome = () => {
         <Card.Body>
           <Card.Title>jaket bulu anak uniqlo</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+          1 - 3 thn
+          </Card.Text>
+          <Card.Text>
+          jaket ini mempunyai bulu yang sangat lembut cocok dipakai saat dingin
           </Card.Text>
         </Card.Body>
         <Card.Footer>
