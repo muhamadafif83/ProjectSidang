@@ -27,19 +27,13 @@ const Productlist = () => {
                   <Dropdown.Item href="https://www.instagram.com/damdam.suit/" target="_blank">
                     <FaInstagram size={20} /> Instagram
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-2" target="_blank">
+                  <Dropdown.Item href="https://web.whatsapp.com/" target="_blank">
                     <FaWhatsapp size={20} /> Whatsapp
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-3" target="_blank">
+                  <Dropdown.Item href="https://www.tiktok.com/foryou" target="_blank">
                     <FaTiktok size={20} /> TikTok
                   </Dropdown.Item>
                 </DropdownButton>
-                {/* <ModalComponent 
-                                show={showModal} 
-                                handleClose={handleClose}  
-                                title="Contact us here" 
-                                content="Isi modal di sini" 
-                            /> */}
               </>
             </Card.Body>
           </Card>

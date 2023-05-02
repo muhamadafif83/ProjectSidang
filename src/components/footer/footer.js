@@ -61,12 +61,12 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/" className="text-white">
+                <a href="https://web.whatsapp.com/" className="text-white">
                    <FaWhatsapp size={25} />
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/" className="text-white TikTok">
+                <a href="https://www.tiktok.com/foryou" className="text-white TikTok">
                  <FaTiktok size={25} />
                 </a>
               </li>
