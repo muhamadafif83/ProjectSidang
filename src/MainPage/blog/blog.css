@@ -1,0 +1,46 @@
+.blog-content img{
+    width: 70%;
+    /* margin-left: 16%; */
+    display: flex;
+    align-items: center;
+}
+
+.blog-content p{
+    width: 65%;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: -3%;
+}
+
+.blog-content2 p{
+    width: 65%;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: -3%;
+}
+
+.blog-content2 li{
+    width: 65%;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: -3%;
+}
+
+.title2 h3{
+    width: 70%;
+    margin-left: 16%;
+    display: flex;
+    align-items: center;
+} 
+
+.title{
+    background-color: rgb(166, 238, 238);
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.blog-content2 ul li{
+    list-style-type: circle;
+    
+}
