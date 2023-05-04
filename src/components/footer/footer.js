@@ -17,41 +17,33 @@ function Footer() {
     >
       <MDBContainer className="p-4">
         <MDBRow>
-          <MDBCol lg="6" md="12" className="mb-4 mb-md-0">
+          <MDBCol lg="6" md="12" className="mb-4 mb-md-0 mt-2">
             <h5 className="text-uppercase">DamDam suit</h5>
             <p>
               DamDam suit adalah toko baju dan celana anak anak, kami menyediakan baju dan celana anak yang bermacam macam, dimulai dari umur 1-3 tahun
             </p>
           </MDBCol>
-
-          {/* <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
-
-            <ul className="list-unstyled mb-0">
-              <li>
-                <a href="#!" className="text-white">
-                  Link 1
-                </a>
+        <MDBCol lg="" md="6" className="mb-5 mb-md-0">
+            <h5 className="text-uppercase">Located</h5>
+            <div className="lokasi list-unstyled mb-0">
+              <li >
+                <p>
+                DamDam Suit
+                </p>
               </li>
               <li>
-                <a href="#!" className="text-white">
-                  Link 2
-                </a>
+                <p>
+                Kabupaten Bandung - Soreang
+                </p>
               </li>
-              <li>
-                <a href="#!" className="text-white">
-                  Link 3
-                </a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">
-                  Link 4
-                </a>
-              </li>
-            </ul>
-          </MDBCol> */}
-
-          <MDBCol lg="6" md="6" className="mb-4 mb-md-0">
+              {/* <li>
+                <p>
+                TikTok: damdam.suit
+                </p>
+              </li> */}
+              </div>
+          </MDBCol>
+          <MDBCol lg="3 " md="6" className=" footer-sosmed mb-4 mb-md-0">
             <h5 className="mb-0">Our Social media</h5>
 
             <ul className="list-unstyled social-media">

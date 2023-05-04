@@ -17,6 +17,8 @@ const Productlist = () => {
               <hr />
               <Card.Text>{card.size}</Card.Text>
               <Card.Text>{card.desc}</Card.Text>
+              <Card.Text>{card.harga}</Card.Text>
+              <Card.Text>{card.condition}</Card.Text>
               <>
                 <DropdownButton
                   id="dropdown-item-button"

@@ -23,7 +23,7 @@ const Blog = () => {
         </div>
         <div className="blog-content2">
         <center>
-        <p>Saat melakukan online shopping, kamu nggak bisa mencoba atau melihat produknya secara langsung. Oleh karena itu, jika membeli barang yang memiliki ukuran, Blibli Friends cuma bisa memperkirakan saja. Ada beberapa cara buat memperkirakan ukuran. Salah satu cara untuk memperkirakan ukuran baju anak adalah dari umurnya.</p>
+        <p>Saat melakukan online shopping, kamu nggak bisa mencoba atau melihat produknya secara langsung. Oleh karena itu, jika membeli barang yang memiliki ukuran, anda cuma bisa memperkirakan saja. Ada beberapa cara buat memperkirakan ukuran. Salah satu cara untuk memperkirakan ukuran baju anak adalah dari umurnya.</p>
         <br />
         <p>Sebenarnya, setiap brand atau toko baju punya standarnya sendiri untuk ukuran baju anak berdasarkan umurnya. Ada standar ukuran lokal dan internasional. Untuk standar internasional, rata-rata memiliki ukuran yang lebih besar daripada lokal. Berikut ini merupakan daftar ukuran baju berdasarkan umurnya untuk standar internasional.</p>
             <li>3-4 tahun: S (Tinggi badan: 105-115 dan Lebar dada: 53-59)</li>

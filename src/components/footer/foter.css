@@ -4,6 +4,21 @@ footer{
     margin-top: 100px;
 }
 
+.footer-sosmed{
+    margin-left: 38%;
+}
+
+.lokasi{
+    text-align: center;
+    /* color: black;
+    background-color: aliceblue; */
+    padding: 10px 0 10px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    
+}
+
 .social-media li a{
     text-decoration: none;
     padding: 7px;

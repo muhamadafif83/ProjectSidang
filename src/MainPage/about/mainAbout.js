@@ -2,6 +2,7 @@ import Form from 'react-bootstrap/Form';
 import "./style/mainAbout.css"
 import Button from 'react-bootstrap/Button';
 
+
 const MainAbout = () => {
   function handleSubmit() {
     alert('keluhan anda sudah terkirim');
@@ -16,6 +17,10 @@ const MainAbout = () => {
       <br/>
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Control type="email" placeholder="Masukan Email anda" />
+      </Form.Group>
+      <br />
+      <Form.Group className="mb-3" controlId="formBasicSosmed">
+        <Form.Control type="text" placeholder="Masukan sosial media anda" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <br/>
